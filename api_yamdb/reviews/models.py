@@ -154,9 +154,6 @@ class ReviewComment(models.Model):
         abstract = True
         ordering = ('-pub_date',)
 
-    def __str__(self):
-        return self.text
-
 
 class Review(ReviewComment):
     title = models.ForeignKey(
