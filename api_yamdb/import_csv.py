@@ -1,8 +1,7 @@
 import csv
 
 from django.shortcuts import get_object_or_404
-
-from reviews.models import Genre, Category, Title, Review, Comment, User
+from reviews.models import Category, Comment, Genre, Review, Title, User
 
 path = 'api_yamdb/static/data/'
 
