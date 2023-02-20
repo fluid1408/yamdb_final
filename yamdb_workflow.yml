@@ -59,8 +59,9 @@ jobs:
           # Пуш образа в Docker Hub 
           uses: docker/build-push-action@v2 
           with:
+            file: ./api_yamdb/Dockerfile
             push: true
-            tags: schlyomin/yamdb_final/api_yamdb:latest
+            tags: schlyomin/yamdb_final:latest
 
 
   deploy:
