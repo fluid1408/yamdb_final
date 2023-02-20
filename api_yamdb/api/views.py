@@ -34,7 +34,6 @@ from .serializers import (
     UserSerializer,
     ReviewSerializer
 )
-
 from reviews.models import User, Title, Category, Genre, Review
 
 
